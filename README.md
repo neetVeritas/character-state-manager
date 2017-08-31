@@ -2,6 +2,12 @@
 
 This tool is an extension of Oro. It allows the manipulation of character state for RumbleFighter, an action fighting MMO. It was written in C++ using C++ 11 conventions and the win32 api.
 
+To use this tool, inject it into your RumbleFighter client ( preferably using manual map ). Once in-game:
+
+* F1: State reset
+* F2: Access basic commands
+* F3: Access elevated room master state
+
 The concept is simple, but this character state manager allows players to access otherwise inavailable commands. Because the game cannot properly process the player's state, users can use CA(community advisor)/GM(game master) esque commands. The full extent of the commands that can be used is unclear, but the following commands have been found and confirmed to work:
 
 * /Close [username] ; Will DC the user
