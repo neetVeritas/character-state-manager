@@ -20,10 +20,12 @@ The following commands are available, but the state at which that can be used is
 
 All commands can be made available by modifying the following addresses in static memory:
 
+```
 42575F:
 jne 426225 ; 0F 85
 425A4D:
 jne 425CE9 ; 0F 85
+```
 
 Using our memory api:
 
