@@ -47,7 +47,3 @@ memapi::pointer::write_int(char_base, 0xD13C, 2); // # disable
 * //s changeID ?
 
 It's my hypothesis there are more commands at your disposal, it's just a matter of flipping switches. It seems a lot of these commands are also actually called by the client itself under the hood during certain state changes or events.
-
---
-
-This tool was created for educational purposes.
